@@ -1,7 +1,11 @@
+
+
 /** A client that uses the synthesizer package to replicate a plucked guitar string sound */
+
 public class GuitarHeroLite {
     private static final double CONCERT_A = 440.0;
     private static final double CONCERT_C = CONCERT_A * Math.pow(2, 3.0 / 12.0);
+
 
     public static void main(String[] args) {
         /* create two guitar strings, for concert A and C */
